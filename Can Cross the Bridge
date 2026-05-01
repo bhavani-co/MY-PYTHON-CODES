@@ -1,0 +1,7 @@
+import sys
+
+data = list(map(int, sys.stdin.read().split()))
+
+x, y, z = data[0], data[1], data[2]
+
+print((z - y) // x)
