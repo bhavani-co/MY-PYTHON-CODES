@@ -1,0 +1,9 @@
+import sys
+
+num1, num2 = map(int, sys.stdin.read().split())
+
+print(f"Sum:{num1 + num2}")
+print(f"Difference:{num1 - num2}")
+print(f"Product:{num1 * num2}")
+print(f"Quotient:{num1 // num2}")
+print(f"Remainder:{num1 % num2}")
