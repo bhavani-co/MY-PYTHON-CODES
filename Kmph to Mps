@@ -1,0 +1,3 @@
+speed_in_kmh = int(input())
+speed_in_ms = speed_in_kmh*5/18
+print(f"{speed_in_ms:.2f}")
