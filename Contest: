@@ -1,0 +1,8 @@
+x, a, b = map(int, input().split())
+
+score = a * 1 + b * 2
+
+if score >= x:
+    print("Qualify")
+else:
+    print("Not Qualify")
